@@ -1,0 +1,44 @@
+@import "../../shared/styles/vars.scss";
+
+.BtnfilledLight {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    padding: 12px 24px;
+
+    border-radius: 10px;
+    border: 1px solid $main-100;
+
+    color: $main-100;
+
+    transition: 0.5s ease;
+
+    &:hover {
+        background: $text-primary;
+        border: 1px solid $text-primary;
+        
+        color: $text-80;
+      }
+}
+
+.BtnfilledDark {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    padding: 18px 40px; 
+
+    border-radius: 10px;
+
+    background: $bg; 
+    border: 1px solid $bg;
+    transition: 0.5s ease;
+
+    &:hover {
+        background: $text-80;
+        border: 1px solid $text-primary;
+
+        color: $text-inner;
+    }
+}

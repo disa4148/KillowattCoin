@@ -1,0 +1,30 @@
+{
+  "name": "kilowattcoin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/react-icons": "^3.0.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "i18next": "^23.5.1",
+    "i18next-http-backend": "^2.2.2",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.2.2",
+    "react-layout-masonry": "^1.0.6",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}

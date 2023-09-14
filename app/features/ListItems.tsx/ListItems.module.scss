@@ -1,0 +1,48 @@
+@import "../../shared/styles/vars.scss";
+
+.main {
+    margin: 40px 0px;
+}
+
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   gap: 25px;
+}
+
+.itemsWrapper {
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   border: 1px solid $primary;
+   border-radius: 10px;
+   padding: 20px;
+   max-width: 280px;
+   height: fit-content;
+   transition: all .3s;
+
+   cursor: pointer;
+
+   &:hover {
+      transform: scale(1.07);
+   }
+
+   .title {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      h2 {
+         font-size: 32px;
+         font-weight: 600;
+         width: fit-content;
+      }
+      p {
+        font-size: 16px;
+      }
+   }
+}

@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: auto;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.rightItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 10em;
+}
+

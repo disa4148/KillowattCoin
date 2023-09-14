@@ -1,0 +1,167 @@
+@import "../../shared/styles/vars.scss";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 40px;
+
+    .leftContainerToken {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 64px;
+            font-weight: 700;
+
+            line-height: 125%; /* 80px */ 
+            
+            color: $text-100;
+
+            span {
+                color: $main-100;
+            }
+        }
+
+        .bep20Description {
+
+            margin-top: 20px;
+            
+            max-width: 400px;
+            width: 100%;
+
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+
+            line-height: 145%; /* 26.1px */
+
+            color: $text-80;
+
+        }
+
+        .secretKey {
+            text-align: center;
+
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+
+            line-height: 120%; 
+
+            color: $bg;
+        }
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 564px;
+    max-height: 258px;
+
+    height: 258px;
+    width: 100%;
+
+    margin-top: 40px;
+    padding: 15px;
+
+    background-image: url(/stackingbg.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;    
+}
+
+.cardButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        span {
+            font-size: 60px !important;
+        }
+    }
+    .card {
+        height: 258px;
+        width: 90%;
+    }
+
+    .kwLogo {
+        width: 460px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column-reverse;       
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .wrapper {
+        margin-top: 0 !important;
+    }
+    .kwLogo {
+        display: none;
+    }
+    .leftContainerToken {
+        align-items: center;
+    }
+    .bep20Description {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        span {
+            font-size: 48px !important;
+        }
+    }
+    
+    .card {
+        height: 240px;
+        width: 85%;
+    }
+    .cardButtons {
+        button {
+            padding: 14px 30px;
+        }
+    }
+  
+}
+
+@media screen and (max-width: 430px) {
+    .wrapper {
+        span {
+            font-size: 42px !important;
+        }
+    }
+    .card {
+        height: 240px;
+        width: 80%;
+    }
+    .cardButtons {
+        button {
+            padding: 10px 26px !important;
+        }
+    }
+}

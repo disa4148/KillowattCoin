@@ -1,0 +1,158 @@
+{
+  "mainBlock": {
+    "titlePowerHeader": "A Token, provided with generating capacity",
+    "ESGDescriptionFirst": "Adhering to the principles of ESG (Environment, Social, Governance) and striving to achieve sustainable development goals, we develop our project and work within the framework of current legislation in the field of electric power.",
+    "ESGDescriptionSecond": "Our goal is the construction and commissioning of micro (up to 15 kW) and small generation facilities (up to 25 MW) with the subsequent sale of generating infrastructure and generated electricity in the wholesale and retail market of “Electric Energy and Capacity”."
+  },
+
+  "killowattCoinInfo": {
+    "investment": "By investing",
+    "investmentDescription": "in smart contracts of ecosystem, investors receive Binance USD tokens rewards from the sale of electricity.",
+    "aboutKWBtn": "About KW"
+  },
+
+  "IDOInfo": {
+    "participateInIDO": "Participate in IDO",
+    "this": "is a",
+    "smartContract": "smart contract",
+    "IDODescription": "created on the blockchain to control the execution of the initial token sale. The collected funds of our IDO are automatically and instantly sent to the liquidity pool. Details on how to participate you can found on our IDO page."
+  },
+
+  "advantages": {
+    "liguidTitle": "Liquidity Pool",
+    "equipmentBuyTitle": "Purchase of Equipment",
+    "bonusesTitle": "Bonuses to Investors",
+
+    "liquidityPoolDescription": "These funds are sent to the Liquidity Pool so that upon completion of the IDO it is possible to make transactions on a decentralized exchange using KW.",
+    "purchaseOfEquipmentDescription": "These funds are sent to the wallet address of the project and will be used to purchase generating capacity, capital expenditures, means of production, marketing and project management.",
+    "bonusesToInvestorsDescription": "4% are sent to the smart contract of the KW token staking. 1% are sent to the smart contract of the LP KW/BUSD token staking."
+  },
+
+  "staking": {
+    "title": "Staking",
+    "description": " - that allows distributing profits among our users. Payments occur when a new index is created inside a smart contract, the withdrawal of the deposit and the profit received by our users are available at any time.",
+    "subheading": "To start receiving a reward, you must:",
+    "conditionsFirst": " Buy KW tokens via our IDO or DEX;",
+    "conditionsSecond": " Choose a smart contract for investing between KW Staking and LP KW/BUSD Staking;",
+    "conditionsThird": " Make a deposit using the our website;",
+    "getReward": "Get rewarded in BUSD tokens or reinvest the profits earned and create a compound interest."
+  },
+
+  "cardsStaking": {
+    "titleFirstCard": "Staking KW",
+    "descriptionFirstCard":"In this smart contract, the profit is distributed in proportion to the deposits of users in KW tokens. Most of the profits are distributed in this pool. ",
+    "buyKWBtn": "Buy KW via IDO",
+    "makeDepositBtn": "Make deposit",
+
+    "titleSecondCard": "Staking LP KW/BUSD",
+    "descriptionSecondCard": "To participate in this Staking necessary to make investments in the liquidity pool of our project. You can read more about the LP Token here.",
+    "buyLPBtn": "Get LP Tokens",
+    "subheading": "The APR in each of the smart contracts is formed depending on the total amount of tokens in the Staking and can change based on market conditions."
+  },
+
+  "footer": {
+    "feedbackBtn": "Fill the form", 
+    "buyCoin": "Buy KILLOWATTCOIN"
+  },
+
+  "header": {
+    "buyBtn": "Buy"
+  },
+
+  "headerItems" : [
+    {
+        "title": "About",
+        "path": "/"
+    },
+    {
+        "title": "Token",
+        "path": "/token"
+    },
+    {
+        "title": "BscScan",
+        "path": "/bscscan"
+    },
+    {
+        "title": "News",
+        "path": "/news"
+    }
+  ],
+
+  "dropdownItems" : [
+    {
+       "title": "For generation facility owners",
+       "description":
+          "In each country, in each region, electricity prices vary due to geographical, economic, political factors (globalpetrolprices.com). Settlements for electricity are made in national currencies, the rate of which also depends on the macroeconomic indicators of the country, the level of inflation in the country, the state of the trade balance of the country, etc.! Using web3 and smart contracts of our project, we will try to unite as many owners of generating capacities all over the world as possible into a community, which is already earning money from selling electricity. By buying and maintaining the liquidity of our token, we create an additional incentive for the introduction and development of new and existing generation facilities."
+    },
+    {
+       "title": "Electricity production",
+       "description":
+          "In accordance with the Federal Law 'On Electric Power Industry' dated 26.03.2003 N 35, individuals, legal entities, as well as individual entrepreneurs have the right to install generating capacities on their land plots and sell the generated electricity to the general grid. The state, through sales companies, buys the generated electricity. The Tax Code of the Russian Federation. Article 217. Income not subject to taxation (exempt from taxation) Item 28.1. Income received in the period up to January 1, 2029 from the sale of electric energy produced at microgeneration facilities owned by the taxpayer on the right of ownership or other legal basis."
+    },
+    {
+       "title": "Generating capacities",
+       "description":" Anthropogenic climate change and the depletion of hydrocarbon raw materials are the key problems of humanity and the financial sector plays a central role in solving them. By directing investments to increase the share of generating capacities that convert solar, water, and wind energy, together we will go the way to a clean, innovative industry and a closed-loop economy, in which the necessary amount of electricity is spent on the production of goods and services, and the excess is sold to the general energy network and distributed among consumers."
+    }
+  ],
+
+  "infoListItems": [
+    {
+      "percent": 10,
+      "title": "Liquidity Pool",
+      "description":
+         "These funds will be converted into BUSD, followed the replenishment of the liquidity pool in a 1:1 ratio with the KW token. To achieve this proportion necessary to swap half of BUSD on DEX for KW tokens, which means that the price of KW on DEX will increase and these 5% will be distributed among all holders."
+   },
+   {
+      "percent": 30,
+      "title": "Staking KW",
+      "description":
+         "These funds will be converted into a BUSD token and sent to the address of our smart contract of the KW token Staking, for further distribution among investors."
+   },
+   {
+      "percent": 10,
+      "title": "Staking LP KW/BUSD",
+      "description":
+         "These funds will be converted into a BUSD token and sent to the address of our smart contract of the LP KW/BUSD token Staking, for further distribution among investors."
+   },
+   {
+      "percent": 5,
+      "title": "Purchase of new equipment",
+      "description":
+         "We will reinvest part of the profit received into the purchase of generating capacity, which will increase the overall profitability of the project."
+   },
+   {
+      "percent": 33,
+      "title": "Management Foundation",
+      "description":
+         "Payments to top management and founders of the project."
+   },
+   {
+      "percent": 2,
+      "title": "Insurance Fund",
+      "description":
+         "We will prepare funds in advance for unforeseen situations of serious failures or equipment breakdowns."
+   },
+   {
+      "percent": 10,
+      "title": "Development of new branches of the project",
+      "description":
+        "Using these funds, we will implement all our ideas that will increase the sustainability, stability and life cycle of the project."
+    }
+  ],
+  "token": {
+    "description": "Native BEP20 token of the ecosystem, working in the BNB Chain network",
+    "buyBtn": "Buy",
+    "titleTokenomics": "Tokenomics",
+    "subheading": "Total in circulation:",
+
+    "cardTitleFirst": "Tokens for IDO",
+    "cardTitleSecond": "Reserve",
+    "cardDescriptionFirst": "These tokens will be sent to the IDO smart contract. Most of its will belong to the holders and the second part will belong to the Liquidity Pool",
+    "cardDescriptionSecond": "These tokens will be useful for future repeated IDOs or to provide liquidity on a centralized exchange. These tokens are not for sale.",
+
+    "statisticsTitle": "Statistics",
+    "statisticsSubheading": "And you can also see the chart here:"
+  }
+
+  
+}

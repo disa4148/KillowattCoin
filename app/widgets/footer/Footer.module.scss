@@ -1,0 +1,99 @@
+@import "../../shared/styles/vars.scss";
+
+.feedbackBlock {
+   color: $text-80;
+   display: flex;
+   flex-direction: column;
+
+   margin-top: 40px;
+
+   .feedbackWrapper {
+      margin: 0 auto;
+      border: 1px solid $primary;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      padding: 20px 60px;
+      row-gap: 48px;
+      column-gap: 24px;
+      align-items: center;
+      width: fit-content;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+
+      .contactBlock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+      }
+
+      .contactsWrapper {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         font-size: 20px;
+      }
+   }
+}
+
+.main {
+   font-size: 16px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   width: 100%;
+   .copyright {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      width: 300px;
+      span {
+         color: $main-100;
+      }
+   }
+}
+
+.socialnetwork {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 12px;
+   a {
+      color: white;
+   }
+}
+
+@media screen and (max-width: 972px) {
+   .feedbackWrapper {
+        padding: 20px 10px !important;
+        max-width: 600px !important;
+        gap: 24px 48px !important;
+   }
+
+   .main {
+    flex-direction: column-reverse;
+   }
+
+   .socialnetwork {
+    justify-content: center;
+   }
+
+
+}
+
+@media screen and (max-width: 530px) {
+    .contactBlock {
+        flex-wrap: wrap;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+    .copyright {
+        display: flex;
+        flex-direction: column !important;
+    }
+ }

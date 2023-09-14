@@ -1,0 +1,44 @@
+@import "../../shared/styles/vars.scss";
+
+.wrapper {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .header {
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .borderWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 24px;
+
+        border: 1px solid $main-100;
+        border-radius: 10px;
+        padding: 24px 42px;
+
+        .numberCoins {
+            font-size: 64px;
+            font-weight: 700;
+            color: $main-100;
+            text-align: center;
+
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .numberCoins {
+        font-size: 32px !important;
+    }
+
+    .borderWrapper {
+        font-size: 18px !important;
+    }
+ }

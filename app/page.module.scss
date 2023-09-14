@@ -1,0 +1,459 @@
+@import "app/shared/styles/vars.scss";
+
+.main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   margin-top: 60px;
+}
+.mainTitle {
+   width: 980px;
+   height: 140px;
+
+   text-align: center;
+
+   font-size: 56px;
+   font-style: normal;
+   font-weight: 800;
+
+   line-height: 125%; /* 70px */
+
+   background: linear-gradient(
+      91deg,
+      #2dc24e 20.89%,
+      #05ff00 49.46%,
+      #128200 92.54%
+   );
+   background-clip: text;
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+#hologramAnimation {
+   margin-top: 40px;
+   width: 780px;
+}
+
+.description {
+   margin-top: 40px;
+
+   width: 800px;
+
+   text-align: center;
+
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+
+   line-height: 140%; /* 28px */
+
+   color: $text-80;
+}
+
+.stakingWrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   max-width: 1200px;
+   width: 100%;
+   margin: 40px 0px;
+   overflow: hidden;
+   .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      .image {
+         background-color: gray;
+         border-radius: 10px;
+         width: 200px;
+         height: 100px;
+      }
+   }
+}
+.stakingTitle {
+   max-width: 890px;
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   gap: 10px;
+   h1 {
+      font-size: 48px;
+      font-weight: 700;
+   }
+   p,
+   li {
+      font-size: 18px;
+   }
+   span {
+      color: $main-100;
+   }
+}
+
+.dropdownWrapper {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   gap: 40px;
+
+   margin-top: 40px;
+}
+
+.stakingCardsWrapper {
+   margin-bottom: 10px;
+   max-width: 1200px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.coinWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+
+    margin-top: 40px;
+    
+  
+    .rightItems {
+        display: flex;
+        flex-direction: column;
+
+        .companyName {
+            color: $text-100;
+
+            text-transform: uppercase;
+
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+
+            line-height: 125%; /* 60px */
+
+            span {
+                color: $main-100;
+            }
+        }
+
+        .investmentInfo {
+            margin-top: 20px;
+
+            width: 500px;
+
+          
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            
+            line-height: 140%
+        }
+
+        button {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .Killowat {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .coin {
+            color: $main-100;
+        }
+    }
+}
+
+.idoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 70px;
+
+    margin-top: 20px;
+
+    .rightContainerIDO {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 510px;
+        
+    }
+
+    .titleIDO {
+
+        text-align: center;
+
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+
+        line-height: 125%; /* 60px */
+
+        color: $text-100;
+    }
+
+    .descriptionIDO {
+        margin-top: 15px;
+
+        text-align: right;
+        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+
+        line-height: 145%; /* 26.1px */
+    }
+    span{
+        color: $text-primary;
+    }
+}
+.card {
+   background-image: url(/stackingbg.svg);
+   border-radius: 20px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-width: 564px;
+   max-height: 258px;
+   height: 258px;
+   width: 100%;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+
+   .cardContent {
+      color: $text-inner;
+      h1 {
+         font-size: 40px;
+         font-weight: 800;
+      }
+   }
+
+   .cardButtons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+   }
+}
+
+.undercardTitle {
+   max-width: 1200px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 980px) {
+   .mainTitle,
+   .description {
+      width: auto;
+   }
+   #hologramAnimation {
+      margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 920px) {
+    #hologramAnimation {
+      width: 600px;
+   }
+   .mainTitle {
+      font-size: 46px;
+   }
+
+    .coinWrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+  .idoWrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  
+}
+
+@media screen and (max-width: 780px) {
+    #hologramAnimation {
+      width: 600px;
+   }
+
+    .coinWrapper {
+        flex-direction: column;
+        text-align: center;
+
+        .rightItems {
+            margin-top: 15px;
+
+            button {
+                padding: 16px 28px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 765px) {
+   .mainTitle {
+      font-size: 40px;
+   }
+
+   .images {
+      flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 668px) {
+    #hologramAnimation {
+      width: 500px;
+      font-size: 14px;
+   }
+
+   .mainTitle {
+      margin-top: 40px;
+      font-size: 38px;
+   }
+   .description {
+      font-size: 18px;
+   }
+}
+
+
+@media screen and (max-width: 535px) {
+    #hologramAnimation {
+      width: 400px;
+   }
+   .mainTitle {
+      font-size: 36px;
+   }
+
+   .descriptionIDO {
+    text-align: center !important;
+    width: 410px !important;
+    
+   }
+
+   .cardButtons {
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .cardContent {
+      h1 {
+         font-size: 28px !important;
+      }
+      p {
+         font-size: 14px !important;
+      }
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .companyName {
+        font-size: 42px !important;
+    }
+    .investmentInfo {
+      width: 350px !important;
+    font-size: 18px !important;
+   }
+   .descriptionIDO, .rightContainerIDO {
+    width: 400px !important;
+   }
+}
+
+@media screen and (max-width: 436px) {
+   .mainTitle {
+      font-size: 32px;
+   }
+    .coinWrapper {
+        gap: 0;
+    }
+    .descriptionIDO, .rightContainerIDO {
+        width: 350px ;
+    } 
+}
+
+@media screen and (max-width: 398px) {
+
+   .mainTitle {
+      font-size: 28px;
+   }
+
+   .companyName {
+        font-size: 36px !important;
+    }
+
+    .investmentInfo {
+      font-size: 18px !important;
+      width: 330px !important;
+    }
+
+    #KWcoinIcon {
+        height: 190px;
+        width: 220px;
+    }
+    #hologramAnimation {
+        height: 200px;
+   }
+
+   .descriptionIDO, .rightContainerIDO {
+    width: 340px !important;
+   }
+}
+
+@media screen and (max-width: 1141px) {
+   .stakingWrapper {
+      flex-direction: column;
+   }
+   .images {
+      flex-direction: row !important;
+      margin: 20px;
+   }
+}
+
+@media screen and (max-width: 1183px) {
+   .stakingCardsWrapper {
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .undercardTitle {
+      max-width: 564px;
+   }
+}
+
+@media screen and (max-width: 620px) {
+   .undercardTitle {
+      max-width: 564px;
+   }
+}
+
+@media screen and (max-width: 568px) {
+   .cardButtons {
+      flex-direction: column !important;
+      gap: 10px !important;
+   }
+}
+
+@media screen and (max-width: 536px) {
+   .cardContent {
+      h1 {
+         font-size: 28px !important;
+      }
+   }
+}
