@@ -1,0 +1,63 @@
+@import "../../shared/styles/vars.scss";
+.feedbackWrapper {
+    margin: 0 auto;
+    border: 1px solid $primary;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 60px;
+    row-gap: 48px;
+    column-gap: 24px;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+
+    .contactBlock{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+    }
+
+    .contactsWrapper {
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       font-size: 20px;
+    }
+ }
+
+
+ @media screen and (max-width: 972px) {
+    .feedbackWrapper {
+         padding: 20px 10px !important;
+         max-width: 600px !important;
+         gap: 24px 48px !important;
+    }
+ 
+    .main {
+     flex-direction: column-reverse;
+    }
+ 
+    .socialnetwork {
+     justify-content: center;
+    }
+ 
+ 
+ }
+ 
+ @media screen and (max-width: 530px) {
+     .contactBlock {
+         flex-wrap: wrap;
+     }
+  }
+ 
+  @media screen and (max-width: 350px) {
+     .copyright {
+         display: flex;
+         flex-direction: column !important;
+     }
+  }
+ 

@@ -26,22 +26,7 @@ const Footer = () => {
    return (
       <I18nextProvider i18n={i18}>
          <footer className={styles.feedbackBlock}>
-            <div className={styles.feedbackWrapper}>
-               <div className={styles.contactBlock}>
-                  <div className={styles.contactsWrapper}>
-                     <BiMailSend size='30px' />
-                     <p>mail@example.com</p>
-                  </div>
-                  <div className={styles.contactsWrapper}>
-                     <BiPaperPlane size='30px' />
-                     <p>t.me/telegramlink</p>
-                  </div>
-               </div>
-               <div className={styles.feedbackButton}>
-                  <ToggleModal text={toggleModalText} type="filledLight" form={<FeedbackForm/>}/>
-                  
-               </div>
-            </div>
+            
             <div className={styles.main}>
                <div className={styles.copyright}>
                   <Image

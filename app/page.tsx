@@ -13,6 +13,7 @@ import i18 from './i18';
 
 import { useTranslation } from 'react-i18next';
 import { I18nextProvider } from 'react-i18next';
+import { Contacts } from "./widgets/contacts/Contacts"
 
 const Homepage = () => {
 
@@ -174,6 +175,7 @@ const { t } = useTranslation();
             <p className={styles.undercardTitle}>
                {t('cardsStaking.subheading')}
             </p>
+            <Contacts/>
          </main>
       </I18nextProvider>
    )
