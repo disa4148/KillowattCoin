@@ -1,8 +1,6 @@
 "use client"
 import styles from "./Footer.module.scss"
 import {
-   BiMailSend,
-   BiPaperPlane,
    BiLogoFacebook,
    BiLogoTwitter,
    BiLogoInstagram,
@@ -13,9 +11,8 @@ import { AiFillTwitterCircle } from "react-icons/ai"
 import Button from "@/app/shared/UI/Button"
 import Image from "next/image"
 import { HeaderLinks } from "@/app/features/headerLinks/HeaderLinks"
-import ToggleModal from "@/app/features/toggleModal/ToggleModal"
+
 import i18 from '../../i18';
-import FeedbackForm from "@/app/shared/UI/FeedbackForm/FeedbackForm"
 
 import { useTranslation } from 'react-i18next';
 import { I18nextProvider } from 'react-i18next';
